@@ -193,10 +193,10 @@ namespace PactIncreasedLethality
                 ammo_vog17m1 = new AmmoType();
                 Util.ShallowCopy(ammo_vog17m1, ammo_3uor6);
                 ammo_vog17m1.Name = "VOG-17M1 HEDP";
-                ammo_vog17m1.MuzzleVelocity = 600f;
+                ammo_vog17m1.MuzzleVelocity = 700f;
                 ammo_vog17m1.VisualType = LiveRoundMarshaller.LiveRoundVisualType.Bullet;
                 ammo_vog17m1.UseTracer = false;
-                ammo_vog17m1.RhaPenetration = 50f;
+                ammo_vog17m1.RhaPenetration = 75f;
                 ammo_vog17m1.DetonateSpallCount = 20;
                 ammo_vog17m1.TntEquivalentKg = 0.032f;
                 ammo_vog17m1.ArmingDistance = 25f;
@@ -211,7 +211,7 @@ namespace PactIncreasedLethality
                 ammo_codex_vog17m1.name = "ammo_vog17m1";
 
                 clip_vog17m1 = new AmmoType.AmmoClip();
-                clip_vog17m1.Capacity = 300;
+                clip_vog17m1.Capacity = 400;
                 clip_vog17m1.Name = "VOG-17M1 HEDP";
                 clip_vog17m1.MinimalPattern = new AmmoCodexScriptable[1];
                 clip_vog17m1.MinimalPattern[0] = ammo_codex_vog17m1;

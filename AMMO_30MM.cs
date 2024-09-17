@@ -53,8 +53,8 @@ namespace PactIncreasedLethality
                 ammo_3ubr8.Name = "3UBR8 APDS-T";
                 ammo_3ubr8.Mass = 0.222f;
                 ammo_3ubr8.Coeff = 0.012f;
-                ammo_3ubr8.MuzzleVelocity = 1120f;
-                ammo_3ubr8.RhaPenetration = 72f;
+                ammo_3ubr8.MuzzleVelocity = 1220f;
+                ammo_3ubr8.RhaPenetration = 112f;
                 ammo_3ubr8.VisualType = GHPC.Weapons.LiveRoundMarshaller.LiveRoundVisualType.Custom;
 
                 ammo_codex_3ubr8 = ScriptableObject.CreateInstance<AmmoCodexScriptable>();
@@ -62,7 +62,7 @@ namespace PactIncreasedLethality
                 ammo_codex_3ubr8.name = "ammo_3ubr8";
 
                 clip_3ubr8 = new AmmoType.AmmoClip();
-                clip_3ubr8.Capacity = 160;
+                clip_3ubr8.Capacity = 260;
                 clip_3ubr8.Name = "3UBR8 APDS-T";
                 clip_3ubr8.MinimalPattern = new AmmoCodexScriptable[1];
                 clip_3ubr8.MinimalPattern[0] = ammo_codex_3ubr8;
@@ -88,7 +88,7 @@ namespace PactIncreasedLethality
                 ammo_3uor6.VisualType = GHPC.Weapons.LiveRoundMarshaller.LiveRoundVisualType.Custom;
 
                 clip_3uof8 = new AmmoType.AmmoClip();
-                clip_3uof8.Capacity = 340;
+                clip_3uof8.Capacity = 240;
                 clip_3uof8.Name = "3UOR6 HE-T/3UOF8 HEFI";
                 clip_3uof8.MinimalPattern = new AmmoCodexScriptable[] {
                     ammo_codex_3uof8,
